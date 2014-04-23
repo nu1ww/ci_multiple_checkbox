@@ -7,13 +7,7 @@
  * @file	ci_multiple_checkbox_check.php
  */
  
-/**
- * checkbox value fixer. If a checkbox is not checked, sets it's value
- * to zero.
- * @param mixed $name the checkbox form field name. Can be passed as a
- * string or as an array.
- * @return void
- */
+ 
  
 if ( ! function_exists('multiple_checkbox_check'))
 {
