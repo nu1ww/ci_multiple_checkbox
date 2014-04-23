@@ -19,13 +19,16 @@ if ( ! function_exists('multiple_checkbox_check'))
 {
 	function multiple_checkbox_check($id, $selected, $extra)
 	{
-		if(array_key_exists ($id ,$selected))
-		{
-			return 'checked="checked"';
-			
+		if(is_array($selected)){
+			if(array_key_exists ($id ,$selected))
+			{
+				return 'checked="checked"';
+				
+			}
 		}
 	}
 }
+
 
 if ( ! function_exists('form_multiple_checkbox'))
 {
