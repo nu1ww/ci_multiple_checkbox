@@ -34,12 +34,29 @@
         <h3>
 <a name="welcome-to-nu1ww-pages" class="anchor" href="#welcome-to-nu1ww-pages"><span class="octicon octicon-link"></span></a>Welcome to nu1ww Pages.</h3>
 
-<p>The helper function takes four parameters: (name, array of data, the array what we need to select, ’ you can post any attribute of check box’  )</p>
+<p>This helper function takes four parameters: (name, array of data, the array what we need to select, ’ you can post any attribute of check box’  )</p>
 
 <pre><code>$ cd nu1ww/ci_multiple_checkbox
 $ git fetch origin
 $ git checkout gh-pages
 </code></pre>
+
+<h3>
+<a name="step-1" class="anchor" href="#step-1"><span class="octicon octicon-link"></span></a>Step 1</h3>
+
+<p>Please copy all the code of ci_multiple_checkbox_check.php  in to the system/helpers/form_helper.php </p>
+
+<h3>
+<a name="step-2" class="anchor" href="#step-2"><span class="octicon octicon-link"></span></a>Step 2</h3>
+
+<p>You can load the helper like you would normally load a helper in a controlle
+ $this-&gt;load-&gt;helper('form');</p>
+
+<h3>
+<a name="step-3" class="anchor" href="#step-3"><span class="octicon octicon-link"></span></a>Step 3</h3>
+
+<p>and call the function in a view
+ echo  form_multiple_checkbox();</p>
 
 <p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
@@ -52,8 +69,6 @@ $name='name_of_checkbox';
 echo  form_multiple_checkbox($name, $all, $selected, $extra = ''); 
 
 </code></pre>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
       </section>
     </div>
 
