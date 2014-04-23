@@ -4,7 +4,7 @@
  * @author	Nuwan Wijethilaka
  * @link	http://www.linkedin.com/in/nuwanlinkedin
  * @email	nu1.rock@gmail.com
- * @file	checkbox.php
+ * @file	ci_multiple_checkbox_check.php
  */
  
 /**
