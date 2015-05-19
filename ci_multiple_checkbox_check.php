@@ -2,7 +2,7 @@
 
 /**
  * @author	Nuwan Wijethilaka
- * @link	https://lk.linkedin.com/in/nuwanwijethilaka
+ * @link	http://www.linkedin.com/in/nuwanlinkedin
  * @email	nu1.rock@gmail.com
  * @file	ci_multiple_checkbox_check.php
  */
