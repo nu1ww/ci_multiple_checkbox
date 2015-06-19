@@ -15,6 +15,7 @@ Step 2
 ###################
 
 You can load the helper like you would normally load a helper in a controlle
+
 $this->load->helper('form');
 
 ###################
@@ -22,6 +23,7 @@ Step 3
 ###################
 
 and call the function in a view
+
 echo  form_multiple_checkbox();
 
 
